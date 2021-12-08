@@ -6,7 +6,7 @@
 // Module Name: NCUT_MiniSys_tb
 //////////////////////////////////////////////////////////////////////////////////
 
-`include "C:/Users/kayak.WORKSTATION-WX/Documents/Verilog/Projects/project_5/project_5.srcs/sources_1/new/define.v"
+`include "../sources/define.v"
 
 module NCUT_MiniSys_tb();
     reg CLOCK_50;
