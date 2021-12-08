@@ -1,4 +1,4 @@
-# A-simple-MIPS-architecture-CPU
+# NCUT_MiniSys
 A simple MIPS five-stage pipeline CPU implements 31 MIPS instructions.
 
 Implemented according to *自己动手写CPU, 雷思磊*.
