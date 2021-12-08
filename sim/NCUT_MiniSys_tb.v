@@ -6,8 +6,6 @@
 // Module Name: NCUT_MiniSys_tb
 //////////////////////////////////////////////////////////////////////////////////
 
-`include "../sources/define.v"
-
 module NCUT_MiniSys_tb();
     reg CLOCK_50;
     reg rst;
