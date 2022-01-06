@@ -12,7 +12,7 @@ module inst_rom(
     output reg[31:0] inst//读出的指令
     );
     reg[31:0] inst_mem[0:131070];
-    initial $readmemh("C:/Users/kayak.WORKSTATION-WX/Documents/Verilog/Projects/project_5/project_5.srcs/sources_1/new/inst_rom.data",inst_mem);//使用文件初始化指令存储器
+    initial $readmemh("inst_rom.data",inst_mem);//使用文件初始化指令存储器
     always @(*)begin
         if(ce==1'b0) inst<=32'h00000000;
         else inst<=inst_mem[addr[18:2]];//因为cpu是按字节寻址的，
